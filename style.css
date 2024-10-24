@@ -14,31 +14,8 @@ input, button, a{
     font-family: Rubik;
     color: rgb(59, 65, 70);
 }
+
 /* -- */
-
-.nav{
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .login-all{
     width: 60%;
@@ -52,7 +29,9 @@ input, button, a{
 
     border-radius: 30px;
 }
+
 /* -- */
+
 .left-login{
     width: 50%;
     height: 100%;
@@ -61,14 +40,21 @@ input, button, a{
     justify-content: center;
     align-items: center;
 
-    background-color: #4f0ed9;
+    background-color: #FFFFF0;
     border-top-left-radius: 20px;
 }
 #img1{
     width: 300px;
     height: 300px;
+
+    transition: ease 0.5s;
 }
+#img1:hover{
+    transform: scale(1.1);
+}
+
 /* -- */
+
 .right-login{
     width: 50%;
     height: 100%;
@@ -103,6 +89,8 @@ input, button, a{
     border-radius: 20px;
     border: none;
     padding-left: 2%;
+
+    background-color: #FFFFF0;
 }
 
 #save1{
@@ -118,6 +106,7 @@ input, button, a{
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    background-color: #FFFFF0;
 
     transition: 0.5s ease;
 }
@@ -125,7 +114,9 @@ input, button, a{
     transform: scale(1.2);
     background-color: silver;
 }
+
 /* -- */
+
 #create{
    margin-bottom: -10%;
    display: flex;
