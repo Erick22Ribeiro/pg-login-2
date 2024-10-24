@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Document</title>
 </head>
 
@@ -32,15 +33,18 @@
 
             <form class="form1">
                 <label id="email1" for="email">E-mail:
-                    <input id="input1" type="email" name="email"/>
+                    <input id="input1" type="email" name="email" />
                 </label>
 
                 <label id="password1" for="password">Password:
-                    <input id="input2" type="password" name="password" />
+                    <div class="password1-icon">
+                        <input id="input2" type="password" name="password" />
+                        <i id="eye" class="bi bi-eye" onclick="mostrar()"></i>
+                    </div>
+                </label>
 
-                    <label id="save1" for="save">Save password?
-                        <input type="checkbox" name="save" />
-                    </label>
+                <label id="save1" for="save">Save password?
+                    <input type="checkbox" name="save" />
                 </label>
 
 

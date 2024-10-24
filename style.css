@@ -83,18 +83,33 @@ input, button, a{
     display: flex;
     flex-direction: column;
 }
+.password1-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div i{
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 9%;
+
+    color: rgb(59, 65, 70);
+}
+
+
 #input1, #input2{
     width: 20vw;
     height: 2rem;
     border-radius: 20px;
     border: none;
     padding-left: 2%;
-
     background-color: #FFFFF0;
 }
 
 #save1{
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 #login{
